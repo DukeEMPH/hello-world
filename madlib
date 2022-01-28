@@ -1,0 +1,15 @@
+# # string concatenation
+# # create a string that states "My name is _______"
+# Name = "Duc Tran" # some string variable
+
+# # ways to do this
+# print ("My name is " + name)
+# print ("My name is {}.format(name))
+# print (f"My name is {name}")
+
+exc = input("Exclamation: ")
+adv = input ("Adverb: ")
+nou = input ("Noun: ")
+adj = input("Adjective: ")
+
+madlib = f"{exc}! he said {adv} as he jumped into his convertible {nou} and drove off with his {adj} wife."
